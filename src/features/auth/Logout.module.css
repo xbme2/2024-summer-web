@@ -4,8 +4,6 @@
   padding: 0.6rem;
   border-radius: var(--m);
   transition: all 0.2s;
-  width: 2.4rem;
-  height: 2.4rem;
 }
 
 .icon :hover {
@@ -13,8 +11,9 @@
 }
 
 .icon svg {
-  color: var(--color-grey--1);
-
-  height: 100%;
-  width: 100%;
+  color: var(--color-light--1);
+  /* height: 100%;
+  width: 100%; */
+  width: 2.4rem;
+  height: 2.4rem;
 }
