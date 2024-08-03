@@ -95,7 +95,7 @@ function SignupForm() {
         )}
       </div>
       <div className={styles.formrow}>
-        <label htmlFor="avatar">图片</label>
+        <label htmlFor="avatar">头像</label>
         <input
           type="file"
           id="avatar"
