@@ -15,8 +15,7 @@ function NewPostInput() {
   const interesting_id = useParams();
 
   const queryClient = useQueryClient();
-  const { register, handleSubmit, reset, formState } = useForm();
-  const { errors } = formState;
+  const { register, handleSubmit, reset } = useForm();
 
   const { mutate, isLoading: isPosting } = useMutation({
     mutationFn: createPost,
@@ -34,8 +33,6 @@ function NewPostInput() {
 
   function onSubmit(data) {
     console.log(data);
-    // const nanoid = customAlphabet("1234567890", 4);
-    // const id = nanoid();
     mutate({
       ...data,
       interesting_id: interesting_id.id,
