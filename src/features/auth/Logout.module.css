@@ -14,8 +14,7 @@
 
 .icon svg {
   color: var(--color-grey--1);
-  width: 2.4rem;
-  height: 2.4rem;
+
   height: 100%;
   width: 100%;
 }
