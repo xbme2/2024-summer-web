@@ -12,9 +12,6 @@ import NoPost from "./features/posts/NoPost";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import SignupPage from "./pages/SignupPage";
 
-// import InterestingList from "./features/create_int/InterestingList.jsx";
-// import InterestingItem from "./features/create_int/InterestingItem.jsx";
-
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {

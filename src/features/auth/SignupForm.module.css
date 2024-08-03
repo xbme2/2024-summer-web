@@ -78,29 +78,6 @@
   background-color: #f9f9f9;
 }
 
-/* .formrow {
-  display: flex;
-  flex-direction: column;
-  padding: 1.2rem 0;
-}
-
-.formrow label {
-  margin-bottom: 0.5rem; 
-  font-weight: 600;
-  color: var(--color-dark--2);
-}
-
-.formrow input {
-  border: 1px solid var(--color-grey--3);
-  border-radius: var(--xs);
-  background-color: var(--color-grey--1);
-  padding: 0.8rem 1.2rem;
-  width: 100%;
-}
-
-.formrow input:disabled {
-  background-color: #f9f9f9;
-} */
 .file {
   font-size: 1.4rem;
   border-radius: var(--xs);

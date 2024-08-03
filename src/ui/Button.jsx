@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import styles from "./Button.module.css";
 import PropTypes from "prop-types";

@@ -1,4 +1,3 @@
-import HeaderMenu from "./HeaderMenu";
 import UserAvatar from "./UserAvatar";
 import styles from "./Header.module.css";
 import Logout from "../features/auth/Logout";
@@ -8,7 +7,6 @@ function Header() {
     <header className={styles.header}>
       <UserAvatar />
       <Logout />
-      {/* <HeaderMenu /> */}
     </header>
   );
 }

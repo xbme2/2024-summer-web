@@ -7,14 +7,14 @@
   flex-direction: column;
   gap: 2rem;
   margin: 0;
-  border-right: 2px solid #34495e; /* 边框颜色 */
-  padding: 0; /* 内边距 */
-  height: 100vh; /* 使其高度占满整个视口 */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* 阴影效果 */
+  border-right: 2px solid #34495e;
+  padding: 0;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   border-right: 2px #000101;
   padding-top: 20px;
   margin-right: 1rem;
-  background-color: var(--color-dark--0); /* 深色背景 */
+  background-color: var(--color-dark--0);
 }
 
 .leftbar h1 {
@@ -22,8 +22,8 @@
   color: var(--color-dark--2);
 }
 .leftbar h3 {
-  color: var(--color-dark--2); /* 标题颜色 */
-  margin-bottom: 20px; /* 标题与按钮之间的间距 */
+  color: var(--color-dark--2);
+  margin-bottom: 20px;
 }
 
 .buttons {

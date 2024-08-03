@@ -9,14 +9,14 @@ export default function Homepage() {
 
       <section>
         <h1>
-          You have th love
+          You have the hobbies
           <br />
           Acgn Book makes you and hobbies together
         </h1>
         <h2>
-          A hobbies app that makes you dive into your hobiies develop during the
-          past years. Here you will make friends who share the common hobbies
-          with you.
+          A hobbies app that makes you dive into your hobiies developed during
+          the past years. Here you will make friends with who share the common
+          hobbies with you.
         </h2>
         <Link to="/app" className="cta">
           开始探索吧

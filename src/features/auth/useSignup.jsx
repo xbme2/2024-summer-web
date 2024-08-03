@@ -7,7 +7,7 @@ export function useSignup() {
   const navigate = useNavigate();
   const { mutate: signup, isLoading } = useMutation({
     mutationFn: signupApi,
-    onSuccess: (user) => {
+    onSuccess: () => {
       toast.success("账户注册成功！请从邮箱里确认新账户。");
       navigate("/app", { replace: true });
     },

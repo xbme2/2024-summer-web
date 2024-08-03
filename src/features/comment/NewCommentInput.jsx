@@ -32,8 +32,6 @@ function NewCommentInput({ post_id }) {
 
   function onSubmit(data) {
     console.log(data);
-    // const nanoid = customAlphabet("1234567890", 4);
-    // const id = nanoid();
     mutate({
       ...data,
       likes: 1,

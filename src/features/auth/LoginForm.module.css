@@ -5,7 +5,7 @@
 }
 
 .formrow label {
-  margin-bottom: 0.5rem; /* 标签和输入框间的间距 */
+  margin-bottom: 0.5rem;
   font-weight: 600;
   color: var(--color-dark--2);
 }

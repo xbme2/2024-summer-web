@@ -16,18 +16,6 @@
 }
 
 .link {
-  /* display: inline-block;
-  align-items: center; 
-  text-decoration: none;
-  gap: 0.8rem;
-  color: #000000;
-  background-color: #ffffff;
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 0.4rem 0.4rem;
-  transition: all 0.3s;
-  border-radius: 5px; */
-
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -44,10 +32,10 @@
   height: 2.4rem;
   color: var(--color-grey-400);
   transition: all 0.3s;
-  margin: 0; /* 消除默认边距 */
+  margin: 0;
   padding-top: 1.4rem;
-  height: 3.6rem; /* 设置与文本相同的高度 */
-  width: auto; /* 保持宽度自适应 */
+  height: 3.6rem;
+  width: auto;
 }
 .cta:link,
 .cta:visited {
@@ -61,16 +49,3 @@
   padding: 1rem 3rem;
   border-radius: 5px;
 }
-/* CSS Modules feature 
-.nav a:global(.active) {
-  color: var(--color-brand--2);
-}
-
-a.ctaLink:link,
-a.ctaLink:visited {
-  background-color: var(--color-brand--2);
-  color: var(--color-dark--0);
-  padding: 0.8rem 2rem;
-  border-radius: 7px;
-}
-  */

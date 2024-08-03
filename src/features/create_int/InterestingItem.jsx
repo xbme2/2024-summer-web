@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 function InterestingItem({ interesting }) {
   // eslint-disable-next-line react/prop-types
 
-  const { id, name, followingNums, description, image } = interesting;
+  const { name, followingNums, image } = interesting;
 
   function onFollowing() {}
 
