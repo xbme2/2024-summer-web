@@ -11,7 +11,6 @@ import { useUser } from "../auth/useUser.jsx";
 function NewPostInput() {
   const user = useUser();
   const id = user.user.id;
-  console.log(id);
   const interesting_id = useParams();
 
   const queryClient = useQueryClient();
