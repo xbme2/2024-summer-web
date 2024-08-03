@@ -1,0 +1,10 @@
+.app {
+  height: 100%;
+
+  padding: 0;
+  overscroll-behavior-y: none;
+  display: flex;
+  position: relative;
+  background-color: var(--color-dark--0);
+  margin: 0;
+}

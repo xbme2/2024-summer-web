@@ -1,0 +1,28 @@
+/* Comment.module.css */
+.comment {
+  color: var(--color-dark--2); /* 白色文字 */
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  margin-left: 5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.timestamp {
+  color: #888888; /* 灰色时间戳 */
+  font-size: 12px;
+}
+
+.content {
+  margin: 0;
+}

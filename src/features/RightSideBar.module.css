@@ -1,0 +1,15 @@
+.right {
+  width: 20%;
+  font-weight: 600;
+}
+
+.right h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.right h2 {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: x-large;
+}

@@ -1,0 +1,19 @@
+.loginpage {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 48rem;
+  align-content: center;
+  justify-content: center;
+  gap: 3.2rem;
+  background-color: var(--color-grey---5);
+}
+
+.loginpage h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--color-dark--2);
+}
+.logo {
+  padding-left: 20rem;
+}

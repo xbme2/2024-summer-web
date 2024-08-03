@@ -1,0 +1,44 @@
+.formrow {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 4rem 1.5fr;
+  gap: 1.4rem;
+
+  padding: 1.2rem 0;
+}
+
+.formrow:first-child {
+  padding-top: 0;
+}
+
+.formrow:last-child {
+  padding-bottom: 0;
+}
+
+.formrow:not(:last-child) {
+  border-bottom: 1px solid var(--color-dark--1);
+}
+
+.formrow:has(button) {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.2rem;
+}
+
+.formrow label {
+  font-weight: 500;
+  color: #000;
+}
+
+.formrow span {
+  font-size: 1.4rem;
+  color: var(--color-dark--1);
+}
+.formrow input {
+  border: 1px solid var(--color-grey--3);
+  background-color: var(--color-grey--1);
+  border-radius: var(xs);
+  padding: 0.8rem 0.2rem;
+  box-shadow: var(xs);
+  width: 100%;
+}

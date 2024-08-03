@@ -1,0 +1,12 @@
+.middle {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: var(--color-dark--0);
+  border-right: 2px solid var(--color-light--1);
+}
+
+.middle h1 {
+  text-align: center;
+}

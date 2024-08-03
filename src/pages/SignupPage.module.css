@@ -1,0 +1,15 @@
+.signuppage {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center; /* 水平居中 */
+  justify-content: center; /* 垂直居中 */
+  min-height: 100vh; /* 使其至少填满整个视口高度 */
+  background-color: var(--color-grey--5);
+}
+.signuppage h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--color-dark--2);
+}

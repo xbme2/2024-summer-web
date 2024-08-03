@@ -1,0 +1,43 @@
+.formrow {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 0;
+}
+
+.formrow label {
+  margin-bottom: 0.5rem; /* 标签和输入框间的间距 */
+  font-weight: 600;
+  color: var(--color-dark--2);
+}
+
+.formrow input {
+  border: 1px solid var(--color-grey--3);
+  border-radius: var(--xs);
+  background-color: var(--color-grey--1);
+  padding: 0.8rem 1.2rem;
+  width: 100%;
+}
+
+.formrow input:disabled {
+  background-color: #f9f9f9;
+}
+
+.file {
+  font-size: 1.4rem;
+  border-radius: var(--xs);
+}
+.file::file-selector-button {
+  font: inherit;
+  font-weight: 500;
+  padding: 0.8rem 0.2rem;
+  margin-right: 1.2rem;
+  border-radius: var(--xs);
+  border: none;
+  color: var(--color-light--2);
+  background-color: var(--color-dark--2);
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+.file:hover {
+  background-color: var(--color-light--2);
+}
