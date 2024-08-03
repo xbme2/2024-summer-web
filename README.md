@@ -1,12 +1,18 @@
-# React + Vite
+# Acgn-Book
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 智能软件与工程-221900075-谢逸凡
 
-Currently, two official plugins are available:
+## 2024-summer-web 兴趣圈大作业
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 技术栈：react+vite+supabase
 
-# 智能软件与工程-221900075-谢逸凡
+### 应用概述：
 
-# 2024-summer-web 兴趣圈大作业
+- 简单的兴趣圈（需要科学上网）https://2024-summer-web.vercel.app/
+- 通过 Email 注册账户并登录 (测试账户： Email：test@test.com Password:testtest)
+- 未实现功能：
+  - 展示兴趣圈成员活跃状态
+  - 无法加入兴趣圈
+  - 不能点赞帖子或评论
+- 额外功能：
+  - 用户可上传头像
