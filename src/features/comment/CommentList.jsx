@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import Spinner from "../../ui/Spinner";
+import { CompareTime } from "../../utils/helper";
 import styles from "./CommentList.module.css";
 import NewCommentInput from "./NewCommentInput";
 import SingleComment from "./SingleComment";
@@ -11,6 +12,7 @@ function CommentList({ post_id }) {
   if (isLoading) return <Spinner />;
 
   //   if (comments.length === 0) return <h1>暂时还没有帖子哦😊</h1>;
+  comments.sort(CompareTime);
 
   return (
     <ul className={styles.commentList}>
